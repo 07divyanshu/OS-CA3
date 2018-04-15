@@ -26,7 +26,7 @@ int main()
 		{
     			if(buff[i] >= 'A' && buff[i] <= 'Z')
     			{
-				
+				buff[i]=buff[i]+32;
         			printf("%c",buff[i]);
     			}
     			else if(buff[i] >= 'a' && buff[i] <= 'z')
